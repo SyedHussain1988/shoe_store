@@ -63,43 +63,43 @@ const photos = [
 
 const shoes = {
   "1": {
-    name: "NikeCourt Air Max Vapor Wing Premium Men's Tennis Shoe",
+    name: "NikeCourt Air Max Vapor Wing Premium Mens Tennis Shoe",
     img:
       "https://images.nike.com/is/image/DotCom/CT3890_101"
   },
   "2": {
-    name: "NikeCourt Air Zoom Vapor X Men's Hard Court Tennis Shoe",
+    name: "NikeCourt Air Zoom Vapor X Mens Hard Court Tennis Shoe",
     img:
       "https://images.nike.com/is/image/DotCom/AA8030_111"
   },
   "3": {
-    name: "NikeCourt Tech Challenge 20 Men's Tennis Shoe",
+    name: "NikeCourt Tech Challenge 20 Mens Tennis Shoe",
     img:
       "https://images.nike.com/is/image/DotCom/BQ0234_102"
   },
   "4":
   {
-    name: "NikeCourt Air Zoom Vapor X Knit Men's Hard Court Tennis Shoe",
+    name: "NikeCourt Air Zoom Vapor X Knit Mens Hard Court Tennis Shoe",
     img: "https://images.nike.com/is/image/DotCom/AR0496_302"
   },
   "5":
   {
-    name: "NikeCourt Air Max Wildcard Men's Tennis Shoe",
+    name: "NikeCourt Air Max Wildcard Mens Tennis Shoe",
     img: "https://images.nike.com/is/image/DotCom/AO7351_005"
   },
   "6":
   {
-    name: "NikeCourt Vapor X TC Knit Men's Tennis Shoe",
+    name: "NikeCourt Vapor X TC Knit Mens Tennis Shoe",
     img: "https://images.nike.com/is/image/DotCom/BQ0130_100"
   },
   "7":
   {
-    name: "NikeCourt Air Zoom Zero Men's Tennis Shoe",
+    name: "NikeCourt Air Zoom Zero Mens Tennis Shoe",
     img: "https://images.nike.com/is/image/DotCom/AA8018_302"
   },
   "8":
   {
-    name: "NikeCourt Air Zoom Vapor X Knit Women's Hard Court Tennis Shoe",
+    name: "NikeCourt Air Zoom Vapor X Knit Womens Hard Court Tennis Shoe",
     img: "https://images.nike.com/is/image/DotCom/AR8835_406"
   }
 };
@@ -180,7 +180,6 @@ function Home() {
   };
 
   return (
-    // <div><Gallery photos={photos}  ></Gallery></div>
     <div>
       <Gallery photos={photos} onClick={openLightbox} margin={2} />
       <ModalGateway>
