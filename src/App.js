@@ -1,46 +1,61 @@
 import React, { useState, useCallback } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Outlet, useParams } from "react-router-dom";
 import Gallery from "react-photo-gallery";
-import { render } from "react-dom";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 const photos = [
   {
     src: 'https://images.nike.com/is/image/DotCom/CT3890_101',
+    width: 4,
+    height: 3
 
   },
   {
     src: 'https://images.nike.com/is/image/DotCom/AA8030_111',
+    width: 1,
+    height: 1
   },
   {
     src: 'https://images.nike.com/is/image/DotCom/BQ0234_102',
+    width: 3,
+    height: 4
   },
 
   {
     src: 'https://images.nike.com/is/image/DotCom/AR0496_302',
+    width: 3,
+    height: 4
 
   },
 
   {
     src: 'https://images.nike.com/is/image/DotCom/AO7351_005',
+    width: 3,
+    height: 4
 
   },
 
   {
     src: 'https://images.nike.com/is/image/DotCom/BQ0130_100',
-
+    width: 3,
+    height: 4
   },
 
   {
     src: 'https://images.nike.com/is/image/DotCom/AA8018_302',
-
+    width: 4,
+    height: 3
   },
 
   {
     src: 'https://images.nike.com/is/image/DotCom/AR8835_406',
+    width: 4,
+    height: 3
   },
   {
     src: 'https://images.nike.com/is/image/DotCom/CT3890_101',
+    width: 4,
+    height: 3
 
   }
 ]
@@ -190,9 +205,9 @@ function Home() {
 function App() {
   return (
     <Router>
-      <nav style={{ backgroundColor: "lightblue",height:35,fontSize:22 }}>
-      <Link to="/">Home</Link>
-      {" | "}
+      <nav style={{ backgroundColor: "lightblue", height: 35, fontSize: 22 }}>
+        <Link to="/">Home</Link>
+        {" | "}
         <Link to="/">Gallery</Link>
         {" | "}
         <Link to="launch">Details</Link>
