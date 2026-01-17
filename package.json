@@ -11,7 +11,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-images": "^1.1.7",
-    "react-material-ui-carousel": "^1.6.0",
+    "react-material-ui-carousel": "^1.9.2",
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "3.4.1"
